@@ -1,6 +1,9 @@
 # 导入库
 import PySimpleGUI as sg
 
+# 主题
+sg.theme('GrayGrayGray')
+
 User1 = {'用户名':'1','密码':'135'}
 User2 = {'用户名':'2','密码':'246'}
 UserList = [User1,User2]
